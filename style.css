@@ -1,0 +1,112 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.textoBranco{
+    font-family: Roboto !important;
+    color: white !important;
+}
+.foto-perfil{
+    height: 50%;
+    width: auto;
+    max-width: 30%;
+    border-radius: 50%;
+}
+.sessao1{
+    color: white !important;
+}
+p{
+    font-family: Roboto !important;
+    color: black !important;
+}
+.icones{
+    padding-left: 5px;
+}
+.textoFooter{
+    margin: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.jumbotron{
+    margin-bottom: 0px;
+}
+.corPrimaria{
+    background-color: deepskyblue;
+}
+.titulosVerdes{
+    font-family: Roboto !important;
+    text-decoration: underline;
+    text-underline-position: below;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #18bc9c;
+}
+.titulosPretos{
+    font-family: Roboo !important;
+    text-decoration: underline;
+    text-underline-position: below;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: black;
+}
+/* Animação */
+h1::after {
+    content: "|";
+    opacity: 1;
+    margin-left: 5px;
+    display: inline-block;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink {
+    0%,
+    100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+/* modificações*/
+footer #baseboard {
+    padding: 0px;
+    margin: 0px;
+}
+.box-shadow-modificado,
+.form-control {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px !important;
+}
+i {
+    color: #fff;
+}
+h2,
+label {
+    text-decoration: none !important;
+}
+label {
+    font-size: calc(1rem + 1px);
+}
+h2 {
+    font-weight: 900;
+}
+h1 {
+    text-transform: uppercase;
+}
+#p-footer {
+    margin: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white !important;
+}
+.btn-fixed {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    visibility: hidden;
+}
+.btn-fixed.visible {
+    visibility: visible;
+}
